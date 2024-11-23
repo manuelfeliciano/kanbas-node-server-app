@@ -11,7 +11,7 @@ import EnrollmentRoutes from "./Kanbas/Enrollments/routes.js";
 
 import Lab5 from "./Lab5/index.js"
 
-const app = express()
+const app = express();
 app.use(
     cors({
         credentials: true,
