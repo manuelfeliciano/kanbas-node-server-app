@@ -26,7 +26,7 @@ export default function EnrollmentRoutes(app) {
         console.log(user);
         console.log(course);
 
-        const success = enrollmentsDao.unenrollUserInCourse(user, course);
+        const success = enrollmentsDao.unenrollUserFromCourse(user, course);
         if (success) {
             console.log("Success");
             res.sendStatus(204);
